@@ -29,30 +29,63 @@ main {
     text-align: center;
     justify-content: center;
 }
-div {
+
+.row1{
     display: flex;
-}
-.row{
-    display: flex;
-    border: 10px solid sandybrown;
+    border: 20px solid sandybrown;
+    height: 400px;
+    justify-content: space-between;
 }
 
-div.gallery {
+.gallery1 {
     display:flex;
     margin-right: 0;
     padding: 2px;
     width: 600px;
     height:400px;
 }
-/* div.gallery2 {
+.gallery2 {
+    display: flex;
     margin-left: 0;
     padding: 0;
     width:600px;
     height:400px;
 }
-div.gallery3 {
+.gallery3 {
+    display: flex;
     margin-block: 0;
     padding: 0;
     width:600px;
     height:400px;
-} */
+}
+.row2{
+    display: flex;
+    border: 10px solid sandybrown;
+    height: 400px;
+    
+}
+.gallery4 {
+    display:flex;
+    border: 10px;
+    margin-right: 0;
+    padding: 2px;
+    width: 600px;
+    height:400px;
+}
+.gallery5 {
+    display: flex;
+    margin-left: 0;
+    padding: 0;
+    width:600px;
+    height:400px;
+}
+.gallery6 {
+    display: flex;
+    margin-block: 0;
+    padding: 0;
+    width:600px;
+    height:400px;}
+.drawing{
+    width: 100%;
+
+}
