@@ -27,7 +27,7 @@ main {
     display: flex;
     border: 5px;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .row1{
@@ -44,6 +44,7 @@ main {
     width: 600px;
     height:400px;
 }
+
 .gallery2 {
     display: flex;
     margin-left: 0;
@@ -51,6 +52,7 @@ main {
     width:600px;
     height:400px;
 }
+
 .gallery3 {
     display: flex;
     margin-block: 0;
@@ -58,12 +60,14 @@ main {
     width:600px;
     height:400px;
 }
+
 .row2{
     display: flex;
     border: 10px solid sandybrown;
     height: 400px;
     
 }
+
 .gallery4 {
     display:flex;
     border: 10px;
@@ -72,6 +76,7 @@ main {
     width: 600px;
     height:400px;
 }
+
 .gallery5 {
     display: flex;
     margin-left: 0;
@@ -79,13 +84,23 @@ main {
     width:600px;
     height:400px;
 }
+
 .gallery6 {
     display: flex;
     margin-block: 0;
     padding: 0;
     width:600px;
-    height:400px;}
+    height:400px;
+}
+
 .drawing{
     width: 100%;
 
+}
+
+.content-box{
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    box-sizing: content-box;
 }
