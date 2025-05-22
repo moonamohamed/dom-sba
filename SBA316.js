@@ -7,3 +7,9 @@ let h3 = document.createElement('h3');
 h3.innerText = 'Poems Soothes The Soul';
 document.querySelector('main').appendChild(h3)
 
+function submitPoetry(e) {
+    e.preventDefault()
+  alert("The poem was submitted");
+}
+document.getElementById("poem_content").addEventListener("submit", submitPoetry);
+
