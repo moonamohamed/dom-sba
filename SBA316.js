@@ -13,3 +13,17 @@ function submitPoetry(e) {
 }
 document.getElementById("poem_content").addEventListener("submit", submitPoetry);
 
+let list = ['Poets','Poems', 'Arthurs', 'Literature'];
+
+const dFrag = document.createDocumentFragment();
+for(let p in list) {
+    const li = document.createElement('li');
+    li.textContent = list[p];
+    dFrag.appendChild(li);
+}
+document.querySelector('h3').appendChild(dFrag);
+
+document.getElementById("poem_content").parentElement.nextElementSibling
+
+// document.getElementById('title').innerHTML = document.documentElement.innerHTML;
+
